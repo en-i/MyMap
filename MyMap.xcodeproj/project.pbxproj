@@ -11,6 +11,7 @@
 		DC3E340126975EF8007DA57E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E340026975EF8007DA57E /* ContentView.swift */; };
 		DC3E340326975EFA007DA57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3E340226975EFA007DA57E /* Assets.xcassets */; };
 		DC3E340626975EFA007DA57E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3E340526975EFA007DA57E /* Preview Assets.xcassets */; };
+		DC3E340E26975F4A007DA57E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E340D26975F4A007DA57E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		DC3E340226975EFA007DA57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3E340526975EFA007DA57E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC3E340726975EFA007DA57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3E340D26975F4A007DA57E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				DC3E33FE26975EF8007DA57E /* MyMapApp.swift */,
 				DC3E340026975EF8007DA57E /* ContentView.swift */,
+				DC3E340D26975F4A007DA57E /* MapView.swift */,
 				DC3E340226975EFA007DA57E /* Assets.xcassets */,
 				DC3E340726975EFA007DA57E /* Info.plist */,
 				DC3E340426975EFA007DA57E /* Preview Content */,
@@ -110,6 +113,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = DC3E33F226975EF8007DA57E;
 			productRefGroup = DC3E33FC26975EF8007DA57E /* Products */;
@@ -139,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC3E340126975EF8007DA57E /* ContentView.swift in Sources */,
+				DC3E340E26975F4A007DA57E /* MapView.swift in Sources */,
 				DC3E33FF26975EF8007DA57E /* MyMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
